@@ -12,8 +12,8 @@
     "test": "karma start ./karma.conf.js"
   },
   "devDependencies": {
-    "@angular/compiler": "5.0.3",
-    "@angular/compiler-cli": "5.0.3",
+    "@angular/compiler": "^5.0.3",
+    "@angular/compiler-cli": "^5.0.3",
     "@ngtools/webpack": "1.7.1",
     "@types/core-js": "0.9.43",
     "@types/jasmine": "2.6.0",
@@ -41,8 +41,10 @@
     "progress-bar-webpack-plugin": "1.9.3",
     "raw-loader": "0.5.1",
     "rimraf": "2.6.2",
+    "rollup": "^2.6.0",
     "sass-loader": "6.0.6",
-    "typescript": "2.6.1",
+    "typescript": "^2.6.1",
+    "uglify-js": "^3.8.1",
     "webpack": "3.6.0",
     "webpack-dev-server": "2.8.2"
   },
